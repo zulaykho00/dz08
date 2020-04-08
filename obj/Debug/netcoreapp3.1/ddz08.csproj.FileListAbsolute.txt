@@ -1,0 +1,13 @@
+C:\projects\ddz08\bin\Debug\netcoreapp3.1\ddz08.exe
+C:\projects\ddz08\bin\Debug\netcoreapp3.1\ddz08.deps.json
+C:\projects\ddz08\bin\Debug\netcoreapp3.1\ddz08.runtimeconfig.json
+C:\projects\ddz08\bin\Debug\netcoreapp3.1\ddz08.runtimeconfig.dev.json
+C:\projects\ddz08\bin\Debug\netcoreapp3.1\ddz08.dll
+C:\projects\ddz08\bin\Debug\netcoreapp3.1\ddz08.pdb
+C:\projects\ddz08\obj\Debug\netcoreapp3.1\ddz08.csprojAssemblyReference.cache
+C:\projects\ddz08\obj\Debug\netcoreapp3.1\ddz08.csproj.CoreCompileInputs.cache
+C:\projects\ddz08\obj\Debug\netcoreapp3.1\ddz08.AssemblyInfoInputs.cache
+C:\projects\ddz08\obj\Debug\netcoreapp3.1\ddz08.AssemblyInfo.cs
+C:\projects\ddz08\obj\Debug\netcoreapp3.1\ddz08.dll
+C:\projects\ddz08\obj\Debug\netcoreapp3.1\ddz08.pdb
+C:\projects\ddz08\obj\Debug\netcoreapp3.1\ddz08.genruntimeconfig.cache
