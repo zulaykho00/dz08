@@ -27,6 +27,33 @@ namespace dz08
           Console.WriteLine($"TjsUsd={TjsUsd}\nTjsEur={TjsEur}\n TjsRub={ TjsRub}");
       }
     }
+    class Employee
+    {string [] lastname,name;
+      public string [] LastName{get;set;}
+      public string [] Name{get;set;}
+      public string [] Position{get;set;}
+       public Employee(string [] lastname,string [] name)
+        {
+         this.lastname=lastname;
+         this.name=name;
+        }
+        
+        public void Salary(int i)
+        {
+            double [] a=new double []{1000,2000,4000};
+            
+           // for(int i=0;i<3;i++)
+            //{
+                Console.Write("оклад:");
+                Console.WriteLine(a[i]);
+                a[i]=a[i]-a[i]*0.96;
+                Console.Write("налоговый сбор:");
+                Console.WriteLine(a[i]);
+           // }
+        }
+
+         
+    }
     class Program
     {
         static void Main(string[] args)
@@ -43,8 +70,22 @@ namespace dz08
              Con.ConToTjs();
              Con.ConFromTjs();
              Console.WriteLine("ZADANIE#3");
+             
+             
+             string [] LastName=new string[]{"Tomy","Jerryy","Maxy"};
+             string [] Name=new string[]{"Tom","Jerry","Max"};
+             string [] Position=new string[]{"Cat","Mouse","Dog"};
+             Employee Emp= new Employee(LastName,Name);
+             Console.Write("введите число [0-2]: ");
+             int i=Convert.ToInt32(Console.ReadLine());
+                 Console.WriteLine($"LastName:{LastName[i]}");
+                 Console.WriteLine($"Name:{Name[i]}");
+                 Console.WriteLine($"Position:{Position[i]}");
+                 Emp.Salary(i);
+             
+             
 
-            
+          
 
 
             
