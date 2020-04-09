@@ -42,14 +42,14 @@ namespace dz08
         {
             double [] a=new double []{1000,2000,4000};
             
-           // for(int i=0;i<3;i++)
-            //{
+            double [] Experience=new double[]{3,7,9};
                 Console.Write("оклад:");
                 Console.WriteLine(a[i]);
-                a[i]=a[i]-a[i]*0.96;
-                Console.Write("налоговый сбор:");
+                Console.Write("с учетом стажа работы:");
+                a[i]=a[i]+a[i]*Experience[i]/100;
                 Console.WriteLine(a[i]);
-           // }
+                Console.Write("налоговый сбор:");
+                Console.WriteLine(a[i]=a[i]-a[i]*0.86);
         }
 
          
